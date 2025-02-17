@@ -1,10 +1,12 @@
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
+import { Button } from '@/components/ui/button';
+import Image from 'next/image';
 
-export default function Home() {
+const Home = () => {
   return (
     <>
       <Button>Click Me</Button>
     </>
   );
-}
+};
+
+export default Home;
